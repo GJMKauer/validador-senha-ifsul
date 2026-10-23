@@ -59,10 +59,3 @@ def test_validar_senha_valida():
     assert validar_senha("ABC12345") is True
     assert validar_senha("Abc12345") is True
     assert validar_senha("A1b2C3d4") is True
-
-
-def test_validar_senha_que_falha():
-    """
-    Validação que falha de verdade apenas para demonstração.
-    """
-    assert validar_senha("ABC12345") is False
